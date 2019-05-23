@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BDP Calls</title>
+</head>
+<body>
+    <h1>BPD Calls</h1>
+
+    <ul>
+        {% for call in calls %}
+        <li>{{ call.date }}, {{ call.time }}, {{ call.duration }}, {{ call.type }}, {{ call.cc }}, {{ call.slot }}, {{ call.calltype }}, {{ call.grp }}, {{ call.rid }}, {{ call.src }}</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
