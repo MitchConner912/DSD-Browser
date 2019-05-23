@@ -10,6 +10,8 @@ RadioDB.py will log the latest audio recording to a sqlite database.
 In the RadioFlaskApp, it will load a flask webserver that will query the database and display the logged calls on an interactive table.
 
 I need to add features that will allow user to choose whether all calls are displayed or only calls recorded from that same day.
+Need to add feature to auto play new calls as they come in. Will also need to auto refresh table without require full page refresh.
+Need to also some how save user preference for numbers of calls to display per page. Defaults to 10 per page when browser refreshes.
 
 
 Current issues:
